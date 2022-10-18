@@ -3,18 +3,18 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContactRegisterComponent } from './contact-register/contact-register.component';
 import { BioAboutComponent } from './bio-about/bio-about.component';
 import { HomeComponent } from './home/home.component';
+import { PortofolioComponent } from './portofolio/portofolio.component';
 
 const routes: Routes = [
   {
-    path:"contact-register", component: ContactRegisterComponent,
-  },{
-    path:"",component: HomeComponent,
-  },{
+    path: '', component: HomeComponent,
+  },,{
     path:"bio-about", component: BioAboutComponent,
-  }
-
-  
-];
+  } {
+    path: 'portofolio', component: PortofolioComponent
+  }, {
+    path: "contact-register", component: ContactRegisterComponent,
+  }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
