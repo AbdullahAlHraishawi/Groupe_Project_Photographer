@@ -10,7 +10,6 @@ import { FooterComponent } from './footer/footer.component';
 import { BioAboutComponent } from './bio-about/bio-about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AwardsComponent } from './awards/awards.component';
-import { CustomersComponent } from './customers/customers.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactRegisterComponent } from './contact-register/contact-register.component';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -25,7 +24,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     BioAboutComponent,
     PortfolioComponent,
     AwardsComponent,
-    CustomersComponent,
     TestimonialsComponent,
     ContactRegisterComponent
   ],
