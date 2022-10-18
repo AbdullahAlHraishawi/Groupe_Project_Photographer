@@ -8,9 +8,9 @@ import { PortofolioComponent } from './portofolio/portofolio.component';
 const routes: Routes = [
   {
     path: '', component: HomeComponent,
-  },,{
+  },{
     path:"bio-about", component: BioAboutComponent,
-  } {
+  },{
     path: 'portofolio', component: PortofolioComponent
   }, {
     path: "contact-register", component: ContactRegisterComponent,
