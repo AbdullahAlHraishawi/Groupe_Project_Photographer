@@ -1,6 +1,6 @@
 .site-footer
 {
-  background-color:#f7ddca;
+  background-color:#cac9c8;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -66,7 +66,7 @@
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#c0b8a5
+  background-color:#696866
 }
 .copyright-text
 {
@@ -109,8 +109,8 @@
   font-size:13px
 }
 .social-icons a{
-  background-color:#eceeef;
-  color:#f9f4ec;
+  background-color:#0a1114;
+  color:#0a0702;
   font-size:16px;
   display:inline-block;
   line-height:44px;
