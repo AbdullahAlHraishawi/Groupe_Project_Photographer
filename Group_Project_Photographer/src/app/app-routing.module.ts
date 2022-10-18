@@ -6,11 +6,11 @@ import { PortofolioComponent } from './portofolio/portofolio.component';
 
 const routes: Routes = [
   {
-      path: '', component: HomeComponent,
-  },{
-      path:'portofolio', component: PortofolioComponent
-  },{
-    path:"contact-register", component: ContactRegisterComponent,
+    path: '', component: HomeComponent,
+  }, {
+    path: 'portofolio', component: PortofolioComponent
+  }, {
+    path: "contact-register", component: ContactRegisterComponent,
   }];
 
 @NgModule({
