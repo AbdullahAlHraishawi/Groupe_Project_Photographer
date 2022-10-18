@@ -13,6 +13,7 @@ import { AwardsComponent } from './awards/awards.component';
 import { CustomersComponent } from './customers/customers.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactRegisterComponent } from './contact-register/contact-register.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ContactRegisterComponent } from './contact-register/contact-register.co
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [],
