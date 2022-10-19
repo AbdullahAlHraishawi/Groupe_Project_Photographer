@@ -6,7 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./awards.component.css']
 })
 export class AwardsComponent implements OnInit {
-
+  gotoTop() {
+    (document.getElementById('top3') as HTMLElement).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
   constructor() { }
 
   ngOnInit(): void {

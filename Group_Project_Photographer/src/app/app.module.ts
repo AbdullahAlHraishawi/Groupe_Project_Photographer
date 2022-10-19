@@ -8,9 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { HeroComponent } from './hero/hero.component';
 import { FooterComponent } from './footer/footer.component';
 import { BioAboutComponent } from './bio-about/bio-about.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
+import { PortofolioComponent } from './portofolio/portofolio.component';
 import { AwardsComponent } from './awards/awards.component';
-import { CustomersComponent } from './customers/customers.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactRegisterComponent } from './contact-register/contact-register.component';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -24,9 +23,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeroComponent,
     FooterComponent,
     BioAboutComponent,
-    PortfolioComponent,
+    PortofolioComponent,
     AwardsComponent,
-    CustomersComponent,
     TestimonialsComponent,
     ContactRegisterComponent
   ],
