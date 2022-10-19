@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -13,6 +12,7 @@ import { AwardsComponent } from './awards/awards.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactRegisterComponent } from './contact-register/contact-register.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ExperienceComponent } from './experience/experience.component';
 
 
 @NgModule({
@@ -26,7 +26,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     PortofolioComponent,
     AwardsComponent,
     TestimonialsComponent,
-    ContactRegisterComponent
+    ContactRegisterComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
