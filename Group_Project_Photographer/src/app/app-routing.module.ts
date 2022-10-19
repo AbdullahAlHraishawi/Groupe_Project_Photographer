@@ -4,6 +4,7 @@ import { ContactRegisterComponent } from './contact-register/contact-register.co
 import { BioAboutComponent } from './bio-about/bio-about.component';
 import { HomeComponent } from './home/home.component';
 import { PortofolioComponent } from './portofolio/portofolio.component';
+import { PortofolioDetailComponent } from './portofolio-detail/portofolio-detail.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { AwardsComponent } from './awards/awards.component';
 import { ExperienceComponent } from './experience/experience.component';
@@ -16,6 +17,8 @@ const routes: Routes = [
     path: "bio-about", component: BioAboutComponent
   }, {
     path: 'portofolio', component: PortofolioComponent
+  }, {
+    path: 'portofolio-detail/:id', component: PortofolioDetailComponent
   }, {
     path: "contact-register", component: ContactRegisterComponent
   }, {

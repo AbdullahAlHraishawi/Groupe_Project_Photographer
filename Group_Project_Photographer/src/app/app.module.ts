@@ -13,6 +13,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactRegisterComponent } from './contact-register/contact-register.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ExperienceComponent } from './experience/experience.component';
+import { PortofolioDetailComponent } from './portofolio-detail/portofolio-detail.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ExperienceComponent } from './experience/experience.component';
     AwardsComponent,
     TestimonialsComponent,
     ContactRegisterComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    PortofolioDetailComponent
   ],
   imports: [
     BrowserModule,
