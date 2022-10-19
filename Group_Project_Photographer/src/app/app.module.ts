@@ -14,6 +14,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactRegisterComponent } from './contact-register/contact-register.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
