@@ -3,9 +3,66 @@ nav{
     padding: 20px 0px;
 }
 
-#list ul, #btn{
+.list ul, #btn{
   display: flex;
   justify-content: center;
+}
+
+ul{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 7.2rem;
+    right: 1.5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 660px) {
+    .toggle-button{
+        display: flex;
+    }
+
+    .list{
+        /* display: none; */
+        width: 100%;
+    }
+
+    .list ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .list li{
+        text-align: center;
+    }
+
+    .list li a{
+        padding: .5rem 1rem;
+    }
+
+    .list.active{
+        display: flex;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 ul li {

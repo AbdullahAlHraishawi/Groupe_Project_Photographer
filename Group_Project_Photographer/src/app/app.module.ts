@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { SwiperModule } from 'swiper/angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -13,6 +13,8 @@ import { AwardsComponent } from './awards/awards.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactRegisterComponent } from './contact-register/contact-register.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TestSwiperComponent } from './test-component/test-component.component';
+
 
 
 @NgModule({
@@ -26,12 +28,14 @@ import { ReactiveFormsModule } from '@angular/forms';
     PortofolioComponent,
     AwardsComponent,
     TestimonialsComponent,
-    ContactRegisterComponent
+    ContactRegisterComponent,
+    TestSwiperComponent
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
