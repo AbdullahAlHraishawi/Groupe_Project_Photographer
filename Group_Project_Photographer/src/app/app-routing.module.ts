@@ -6,6 +6,7 @@ import { PortofolioComponent } from './portofolio/portofolio.component';
 import { PortofolioDetailComponent } from './portofolio-detail/portofolio-detail.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { AwardsComponent } from './awards/awards.component';
+import { TestSwiperComponent } from './test-component/test-component.component';
 
 
 const routes: Routes = [
