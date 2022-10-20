@@ -1,51 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .img--container {
-    width: 80%;
-    margin: 10%;
-    display: grid;
-    grid-template-columns: [start] 1fr [middle] 1fr [end] 1fr;
-    grid-template-rows: 1fr;
-    column-gap: 3%;
-    row-gap: 3%;
-  } 
-    /** 1024px oder schmaler */
-    @media screen and (max-width: 1024px) {
-    .img--container {
-      grid-template-columns: [start] 1fr [end] 1fr;
-      grid-template-rows: min-content;
-     }
-    /** 480px oder schmaler */
-    @media screen and (max-width: 480px) { 
-    .img--container {
-      grid-template-columns: 1fr;
-      grid-template-rows: min-content;
-    }
-  }
-  }
-  
-  img {
-    display: block;   
-    max-width: 340px;
-    max-height: 340px;
-  }
-  
-  .img--txt {
-    font-family: 'Spectral', serif;
-    color: Black;
-    font-size: 1.8rem;
-    font-weight: 300;
-    /* text-align: center; */
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    height: 25%;
-  }
-  
-  
+.myClass:hover {
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
 
- 
+.myClass {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  height: 17rem;
+}
+
+#textFont {
+  font-family: Century Gothic;
+}
+
+.top-p {
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1199px) {
+  .myClass {
+    height: 13rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .myClass {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .myClass {
+    height: 17rem;
+  }
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 22px;
+  right: 33px;
+  cursor: none;
+}
+
+.bouncy {
+  background-color: #135d7500;
+  font-weight: bold;
+  color: black;
+}
+
+.bouncy:hover {
+  background-color: #135d751b;
+}
