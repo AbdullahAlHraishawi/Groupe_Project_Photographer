@@ -7,12 +7,14 @@
           transition-timing-function: ease-in-out;
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
+          transition: all 0.3s ease-in-out; /*added by Abdullah to makes the animations more reponsive */
 }
 
 .myClass {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   height: 17rem;
+  transition: all 0.3s ease-in-out;  /*added by Abdullah to makes the animations more reponsive */
 }
 
 #textFont {

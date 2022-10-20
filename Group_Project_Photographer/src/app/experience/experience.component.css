@@ -1,3 +1,7 @@
+*{
+  font-family: 'Mate', serif;
+}
+
 .container{
   width: 900px;
   text-align: center;
