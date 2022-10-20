@@ -7,6 +7,7 @@ import { PortofolioDetailComponent } from './portofolio-detail/portofolio-detail
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { AwardsComponent } from './awards/awards.component';
 import { TestSwiperComponent } from './test-component/test-component.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 
 const routes: Routes = [
@@ -24,7 +25,10 @@ const routes: Routes = [
     path: "testimonials", component: TestimonialsComponent
   }, {
     path: "awards", component: AwardsComponent
-  }];
+  }, {
+    path: "experience", component: ExperienceComponent
+  }
+];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
